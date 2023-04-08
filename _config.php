@@ -1,7 +1,7 @@
 <?php 
 
 $websiteTitle = "AniKatsu"; // Website Name
-$websiteUrl = "//{$_SERVER['https://ebewsa.herokuapp.com/']}";  // Website URL
+$websiteUrl = "//{$_SERVER['SERVER_NAME']}";  // Website URL
 $websiteLogo = $websiteUrl . "/files/images/logo.png?v=2"; // Logo
 $contactEmail = "xyz@gmail.com"; // Contact Email
 
